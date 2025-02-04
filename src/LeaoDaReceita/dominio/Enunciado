@@ -1,0 +1,26 @@
+### Enunciado da Questão
+
+Uma empresa de consultoria tributária deseja criar um sistema para calcular o imposto devido por diferentes tipos de contribuintes: **Pessoa Física** e **Pessoa Jurídica**. Para isso, foi desenvolvido um modelo orientado a objetos em Java, conforme as classes fornecidas.
+
+#### **Requisitos:**
+1. A classe **Contribuinte** é abstrata e possui os atributos **nome** e **renda bruta**, além do método abstrato **calcularImposto()**.
+2. A classe **PessoaFisica** herda de **Contribuinte** e adiciona o atributo **cpf**. O imposto é calculado conforme a seguinte tabela:
+
+   - **Até R$1400,00** → **Isento**
+   - **De R$1400,01 até R$2100,00** → **10% sobre a renda bruta - R$100,00**
+   - **De R$2100,01 até R$2800,00** → **15% sobre a renda bruta - R$270,00**
+   - **De R$2800,01 até R$3600,00** → **25% sobre a renda bruta - R$500,00**
+   - **Acima de R$3600,01** → **30% sobre a renda bruta - R$700,00**
+
+3. A classe **PessoaJuridica** herda de **Contribuinte** e adiciona o atributo **cnpj**. O imposto devido é **10% da renda bruta**.
+
+4. O programa principal (classe **Main**) armazena objetos de **PessoaFisica** e **PessoaJuridica** em um array e exibe os dados de cada contribuinte, incluindo o imposto devido.
+
+#### **Tarefa:**
+Implemente uma nova funcionalidade na classe **Main**, permitindo que o usuário insira **novos contribuintes** (tanto pessoa física quanto jurídica) pelo console. O programa deverá:
+- Perguntar se o usuário deseja adicionar um novo contribuinte.
+- Solicitar os dados necessários (**nome, renda bruta, CPF/CNPJ**).
+- Criar o objeto correspondente (**PessoaFisica** ou **PessoaJuridica**).
+- Exibir a lista atualizada de contribuintes e o imposto devido de cada um.
+
+✍ **Dica:** Utilize **Scanner** para entrada de dados e um **ArrayList** para armazenar os contribuintes dinamicamente.
