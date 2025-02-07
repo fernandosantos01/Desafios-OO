@@ -1,4 +1,4 @@
-package LeaoDaReceita.dominio;
+package BLeaoDaReceita.dominio;
 
 public class PessoaFisica extends Contribuinte {
     private String cpf;

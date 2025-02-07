@@ -1,4 +1,4 @@
-package Banco.dominio;
+package ABanco.dominio;
 
 public abstract class ContaBancaria {
     private String nomeCliente;

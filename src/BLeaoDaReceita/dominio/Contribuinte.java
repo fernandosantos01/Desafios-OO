@@ -1,4 +1,4 @@
-package LeaoDaReceita.dominio;
+package BLeaoDaReceita.dominio;
 
 public abstract class Contribuinte {
     protected String nome;

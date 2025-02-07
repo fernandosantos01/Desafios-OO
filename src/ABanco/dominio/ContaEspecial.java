@@ -1,4 +1,4 @@
-package Banco.dominio;
+package ABanco.dominio;
 
 public class ContaEspecial extends ContaBancaria {
     private double limite;

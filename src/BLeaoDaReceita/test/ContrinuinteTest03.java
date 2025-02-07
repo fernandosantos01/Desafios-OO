@@ -1,8 +1,8 @@
-package LeaoDaReceita.test;
+package BLeaoDaReceita.test;
 
-import LeaoDaReceita.dominio.Contribuinte;
-import LeaoDaReceita.dominio.PessoaFisica;
-import LeaoDaReceita.dominio.PessoaJuridica;
+import BLeaoDaReceita.dominio.Contribuinte;
+import BLeaoDaReceita.dominio.PessoaFisica;
+import BLeaoDaReceita.dominio.PessoaJuridica;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -25,9 +25,10 @@ public class ContrinuinteTest03 {
                     break;
                 case 1:
                     criarConta();
+                    break;
                 case 2:
                     imprimirContasComImposto();
-
+                    break;
             }
         } while (opcao != 0);
         System.out.println("PROGRAMA ENCERRADO!!!");

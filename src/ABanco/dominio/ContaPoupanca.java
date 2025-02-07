@@ -1,4 +1,4 @@
-package Banco.dominio;
+package ABanco.dominio;
 
 public class ContaPoupanca extends ContaBancaria {
     private final double TAXA_RENDIMENTO = 0.5;

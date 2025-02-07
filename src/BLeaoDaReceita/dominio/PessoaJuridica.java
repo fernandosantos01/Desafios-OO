@@ -1,4 +1,4 @@
-package LeaoDaReceita.dominio;
+package BLeaoDaReceita.dominio;
 
 public class PessoaJuridica extends Contribuinte {
     private String cnpj;

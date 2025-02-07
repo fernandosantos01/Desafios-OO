@@ -1,7 +1,7 @@
-package Banco.test;
+package ABanco.test;
 
-import Banco.dominio.ContaEspecial;
-import Banco.dominio.ContaPoupanca;
+import ABanco.dominio.ContaEspecial;
+import ABanco.dominio.ContaPoupanca;
 
 public class ContaBancariaTest01 {
     public static void main(String[] args) {

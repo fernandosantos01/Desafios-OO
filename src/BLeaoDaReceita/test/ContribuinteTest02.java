@@ -1,8 +1,8 @@
-package LeaoDaReceita.test;
+package BLeaoDaReceita.test;
 
-import LeaoDaReceita.dominio.Contribuinte;
-import LeaoDaReceita.dominio.PessoaFisica;
-import LeaoDaReceita.dominio.PessoaJuridica;
+import BLeaoDaReceita.dominio.Contribuinte;
+import BLeaoDaReceita.dominio.PessoaFisica;
+import BLeaoDaReceita.dominio.PessoaJuridica;
 
 import java.util.Scanner;
 
