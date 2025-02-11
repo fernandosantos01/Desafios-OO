@@ -14,6 +14,7 @@ public abstract class Livro implements ItemBiblioteca {
         this.categoria = categoria;
         this.disponivel = disponivel;
     }
+
     public abstract String getDescricao();
 
     @Override
@@ -28,20 +29,18 @@ public abstract class Livro implements ItemBiblioteca {
 
     @Override
     public void emprestar() {
-        if (!disponivel){
+        if (!disponivel) {
             System.out.println("Não é possivel emprestar o livro, pois está indisponivel");
-        }else {
-            System.out.println("Emprestimo realizado com sucesso");
+        } else {
             this.disponivel = false;
         }
     }
 
     @Override
     public void devolver() {
-        if (!disponivel){
-            System.out.println("Devolução realizada com sucesso!!!");
+        if (!disponivel) {
             this.disponivel = true;
-        }else {
+        } else {
             System.out.println("Não é possivel fazer a devolução, pois você não fez o emprestimo desse livro!!");
         }
     }

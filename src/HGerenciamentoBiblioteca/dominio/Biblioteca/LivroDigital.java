@@ -1,6 +1,6 @@
 package HGerenciamentoBiblioteca.dominio.Biblioteca;
 
-public class LivroDigital extends Livro{
+public class LivroDigital extends Livro {
     private String formato;
 
     public LivroDigital(String titulo, String autor, int anoPublicacao, CategoriaLivro categoria, boolean disponivel, String formato) {
@@ -10,7 +10,7 @@ public class LivroDigital extends Livro{
 
     @Override
     public String getDescricao() {
-        return "";
+        return "======DESCRIÇÃO-DO-LIVRO=======" + "\nTitulo: " + getTitulo() + "\nAutor: " + getAutor() + "\nAno de Publicação: " + getAnoPublicacao() + "\nCategoria: " + getCategoria() + "\nFormato: " + getFormato();
     }
 
     public String getFormato() {

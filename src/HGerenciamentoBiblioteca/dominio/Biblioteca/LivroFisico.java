@@ -10,7 +10,7 @@ public class LivroFisico extends Livro {
 
     @Override
     public String getDescricao() {
-        return "";
+        return "======DESCRIÇÃO-DO-LIVRO=======" + "\nTitulo: " + getTitulo() + "\nAutor: " + getAutor() + "\nAno de Publicação: " + getAnoPublicacao() + "\nCategoria: " + getCategoria() + "\nNumero de Paginas: " + getNumeroPaginas();
     }
 
     public int getNumeroPaginas() {
