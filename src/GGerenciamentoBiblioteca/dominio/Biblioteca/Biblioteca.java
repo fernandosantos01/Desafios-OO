@@ -1,8 +1,8 @@
-package HGerenciamentoBiblioteca.dominio.Biblioteca;
+package GGerenciamentoBiblioteca.dominio.Biblioteca;
 
-import HGerenciamentoBiblioteca.dominio.cliente.Usuario;
-import HGerenciamentoBiblioteca.dominio.exceptions.ItemIndisponivelException;
-import HGerenciamentoBiblioteca.dominio.exceptions.UsuarioNaoCadastradoException;
+import GGerenciamentoBiblioteca.dominio.cliente.Usuario;
+import GGerenciamentoBiblioteca.dominio.exceptions.ItemIndisponivelException;
+import GGerenciamentoBiblioteca.dominio.exceptions.UsuarioNaoCadastradoException;
 
 import java.time.LocalDate;
 import java.util.ArrayList;

@@ -1,6 +1,6 @@
-package HGerenciamentoBiblioteca.dominio.cliente;
+package GGerenciamentoBiblioteca.dominio.cliente;
 
-import HGerenciamentoBiblioteca.dominio.Biblioteca.ItemBiblioteca;
+import GGerenciamentoBiblioteca.dominio.Biblioteca.ItemBiblioteca;
 
 import java.util.ArrayList;
 import java.util.List;

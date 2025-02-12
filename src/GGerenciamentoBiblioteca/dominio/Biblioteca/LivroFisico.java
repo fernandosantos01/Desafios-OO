@@ -1,4 +1,4 @@
-package HGerenciamentoBiblioteca.dominio.Biblioteca;
+package GGerenciamentoBiblioteca.dominio.Biblioteca;
 
 public class LivroFisico extends Livro {
     private int numeroPaginas;

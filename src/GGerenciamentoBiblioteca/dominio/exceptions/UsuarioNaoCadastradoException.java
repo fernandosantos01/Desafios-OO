@@ -1,4 +1,4 @@
-package HGerenciamentoBiblioteca.dominio.exceptions;
+package GGerenciamentoBiblioteca.dominio.exceptions;
 
 public class UsuarioNaoCadastradoException extends RuntimeException {
     public UsuarioNaoCadastradoException(String message) {

@@ -1,4 +1,4 @@
-package HGerenciamentoBiblioteca.dominio.Biblioteca;
+package GGerenciamentoBiblioteca.dominio.Biblioteca;
 
 public enum CategoriaLivro {
     ROMANCE(1, "ROMANCE"),

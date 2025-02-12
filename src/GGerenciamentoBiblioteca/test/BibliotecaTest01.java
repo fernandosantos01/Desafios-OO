@@ -1,12 +1,12 @@
-package HGerenciamentoBiblioteca.test;
+package GGerenciamentoBiblioteca.test;
 
-import HGerenciamentoBiblioteca.dominio.Biblioteca.Biblioteca;
-import HGerenciamentoBiblioteca.dominio.Biblioteca.CategoriaLivro;
-import HGerenciamentoBiblioteca.dominio.Biblioteca.LivroDigital;
-import HGerenciamentoBiblioteca.dominio.Biblioteca.LivroFisico;
-import HGerenciamentoBiblioteca.dominio.cliente.Usuario;
-import HGerenciamentoBiblioteca.dominio.exceptions.ItemIndisponivelException;
-import HGerenciamentoBiblioteca.dominio.exceptions.UsuarioNaoCadastradoException;
+import GGerenciamentoBiblioteca.dominio.Biblioteca.Biblioteca;
+import GGerenciamentoBiblioteca.dominio.Biblioteca.CategoriaLivro;
+import GGerenciamentoBiblioteca.dominio.Biblioteca.LivroDigital;
+import GGerenciamentoBiblioteca.dominio.Biblioteca.LivroFisico;
+import GGerenciamentoBiblioteca.dominio.cliente.Usuario;
+import GGerenciamentoBiblioteca.dominio.exceptions.ItemIndisponivelException;
+import GGerenciamentoBiblioteca.dominio.exceptions.UsuarioNaoCadastradoException;
 
 public class BibliotecaTest01 {
     public static void main(String[] args) {

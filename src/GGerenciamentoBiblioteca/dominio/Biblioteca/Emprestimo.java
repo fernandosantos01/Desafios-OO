@@ -1,6 +1,6 @@
-package HGerenciamentoBiblioteca.dominio.Biblioteca;
+package GGerenciamentoBiblioteca.dominio.Biblioteca;
 
-import HGerenciamentoBiblioteca.dominio.cliente.Usuario;
+import GGerenciamentoBiblioteca.dominio.cliente.Usuario;
 
 import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;

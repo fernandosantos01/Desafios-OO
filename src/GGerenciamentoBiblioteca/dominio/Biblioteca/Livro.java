@@ -1,4 +1,4 @@
-package HGerenciamentoBiblioteca.dominio.Biblioteca;
+package GGerenciamentoBiblioteca.dominio.Biblioteca;
 
 public abstract class Livro implements ItemBiblioteca {
     private String titulo;
