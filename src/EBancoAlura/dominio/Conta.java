@@ -60,7 +60,7 @@ public abstract class Conta implements OperacoesBancarias {
                 "Titular          : " + nomeDoTitular + "\n" +
                 "Número da Conta  : " + numero + "\n" +
                 "Agência         : " + agencia + "\n" +
-                "Saldo           : R$ " + String.format("%.2f", saldo) + "\n" +
+                "Saldo           : R$ " + String.format("%.2f" + saldo) + "\n" +
                 "Data de Abertura: " + dataDeAbertura.format(formatter) + "\n" +
                 "==============================================";
     }
